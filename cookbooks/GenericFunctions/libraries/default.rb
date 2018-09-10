@@ -128,6 +128,18 @@ module GeneralLibs
 		return current_user
 	end
 
+	def self.gateway(node)
+		node=node
+		gateway=node["network"]["default_gateway"]
+		return gateway
+	end
+
+	def self.netmask(node)
+		node=node
+		netmask=node["network"]["interfaces"]["enp0s3"]["addresses"]["#{"ipaddresses"}"]["netmask"]
+		return netmask
+	end
+
     end
 end
 
