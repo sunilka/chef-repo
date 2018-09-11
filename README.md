@@ -22,3 +22,5 @@ The config file, `.chef/knife.rb` is a repository specific configuration file fo
 # Next Steps
 
 Read the README file in each of the subdirectories for more information about what goes in those directories.
+
+Refer to cookbook section !! 
