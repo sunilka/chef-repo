@@ -1,6 +1,7 @@
-server <%=@ipaddress%>
-server 0.rhel.pool.ntp.org
-server 1.rhel.pool.ntp.org
-server 2.rhel.pool.ntp.org
+server 127.127.1.0
+fudge 127.127.0.1 stratum 1
+server <%=@ipaddress%> stratum 10
+restrict 127.0.0.1
+restrict <%=@ipaddress%> mask 255.255.255.0 nomodify notrap
 restrict <%=@gateway%> mask 255.255.255.0  nomodify notrap
 
