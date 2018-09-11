@@ -54,3 +54,4 @@ Use the secret_key to view the contents.
 For more information on encrypted data bags, see the Chef wiki page:
 
 https://docs.chef.io/data_bags.html
+
