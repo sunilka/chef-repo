@@ -12,6 +12,7 @@
 .chef
 .chef/*.pem
 .chef/encrypted_data_bag_secret
+.chef-repo.txt
 
 ## Ignore Chef-Zero files
 clients
